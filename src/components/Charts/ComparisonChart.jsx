@@ -20,7 +20,7 @@ ChartJS.register(
   Legend
 );
 
-const months = [
+const time = [
   "8:00",
   "8:15",
   "8:20",
@@ -35,7 +35,7 @@ const months = [
 ];
 
 const data = {
-  labels: months,
+  labels: time,
   datasets: [
     {
       label: "Air temperature",
